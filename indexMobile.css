@@ -1,0 +1,53 @@
+@media (max-width: 1110px){
+    html{
+    font-size: 11px;
+    }
+    .visible-lg{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .burger img{
+        height: 50px;
+    }
+    .upper-case{
+        margin: 0 ;
+    }
+    .price-tag{
+        margin: 10px;
+    }
+    
+    
+} 
+
+@media (max-width: 991px){
+
+    .visible-lg{
+        display: none;
+    }
+    .main-text {
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .price-tags{
+        flex-direction: column;
+    }
+    .price-tag{
+        width: 75%;
+        margin: 10px;
+    }
+    .table{
+        height: 225vh;
+    }
+    .cta{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        justify-content: center;
+    }
+    .footer-menu{
+        display: none;
+    }
+} 
